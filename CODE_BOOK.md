@@ -13,7 +13,7 @@ The column names of X_* files are referenced from V2 of features.txt using V2 in
 
 ## Below data contains:
 
-### column_position. tidy dataset column (tidy_dataset.txt) => Original dataset column
+column_position. tidy dataset column (tidy_dataset.txt) => Original dataset column
 
 1.	SubjectID =>	        V1 of subject_* files
 2.	Activity  =>	        V1 of y_* files 
