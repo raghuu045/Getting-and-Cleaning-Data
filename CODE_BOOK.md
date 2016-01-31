@@ -11,7 +11,8 @@
 The column names of X_* files are referenced from V2 of features.txt using V2 index of features.txt as corresponding column position in X_* files.
 
 
-### Below data contains:
+## Below data contains:
+
 ### column_position. tidy dataset column (tidy_dataset.txt) => Original dataset column
 
 1.	SubjectID =>	        V1 of subject_* files
