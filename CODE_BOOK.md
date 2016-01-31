@@ -1,19 +1,20 @@
 ### DATA DICTIONARY
 
-Tidy dataset: 
+## Tidy dataset: 
+
 1.	Column 1 (SubjectID) contains the subjects involved in the activity.
 2.	Column 2 (Activity) contains activity names namely WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING. Activity names are referenced from V2 of activity_labels.txt file using V2 index has the corresponding activity. 
 3.	Columns starting from position 3 through 81 are average of the corresponding columns in the original dataset for each subject and each activity.
 
-Original datasets: 
+##Original datasets: 
 
 The column names of X_* files are referenced from V2 of features.txt using V1 of features.txt as corresponding column position of X_* files.
 
 
-Column 	Tidy dataset columns 	Original dataset column
-Position (tidy_dataset.txt)
-1	SubjectID	        V1 of subject_* files
-2	Activity	        V1 of y_* files 
+##Column 	Tidy dataset columns 	Original dataset column
+##Position (tidy_dataset.txt)
+#1	SubjectID	        V1 of subject_* files
+#2	Activity	        V1 of y_* files 
 3	time.BodyAcc.mean.X	tBodyAcc-mean()-X of X_*
 4	time.BodyAcc.mean.Y	tBodyAcc-mean()-Y of X_*
 5	time.BodyAcc.mean.Z	tBodyAcc-mean()-Z of X_*
