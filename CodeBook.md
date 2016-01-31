@@ -8,7 +8,10 @@
 
 ### Original datasets: 
 
-The column names of X_* files are referenced from V2 of features.txt using V2 index of features.txt as corresponding column position in X_* files.
+1. v1 of subject_* (subject_train.txt and subject_test.txt) files corresponds to the SubjectID column of tidy dataset.
+2. v1 of y_* (y_train.txt and y_test.txt) files containing the activities performed by subjects corresponds to Activity column of tidy dataset.
+3. The column names of X_* (X_train.txt and X_test.txt) files are referenced from V2 of features.txt using V2 index of features.txt as corresponding column position in X_* files.
+4. Datasets used are: X_train.txt, y_train.txt, subject_train.txt, X_test.txt, y_test.txt, subject_test.txt, features.txt and activity_labels.txt
 
 
 ### Below table contains relation between tidy dataset and original datasets columns:
