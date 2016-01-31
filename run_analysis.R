@@ -1,3 +1,25 @@
+## This function is used to create a tidy dataset.
+## Using the train and test measurement data set collected on varies activities 
+## performed by various subjects, creates a tidy data set summarizing (calculates mean) 
+## each measurements (which has mean or std on its name) on subject and activity pair.
+
+## List of datasets used are: X_train.txt, y_train.txt, subject_train.txt,
+## X_test.txt, y_test.txt, subject_test.txt, features.txt and activity_labels.txt.
+
+## datasets are from: 
+## https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+## Steps performed are: 
+## 1. Reads the datasets 
+## 2. Appropriately labels the data set with descriptive variable names.
+## 3. Extracts only the measurements on the mean and standard deviation (std) for 
+##    each measurement and appends subject and activity variables to the dataset.
+## 4. Merges train and test datasets one below the other.
+## 5. Updates variables names appropriately
+## 6. Updates descriptive activity names to name the activities in the data set
+## 7. Creates a tidy data set with the average of each variable for each activity 
+##    and each subject.
+
 run_analysis <- function() {
         
 ## Install required packages
@@ -23,14 +45,14 @@ activity_labels <- read.table("activity_labels.txt")
 colnames(X_train) <- features$V2
 colnames(X_test) <- features$V2
 
-## Identify column numbers for required measurements with "mean" or "std" on its name
-req_col_numbers <- grep("mean|std",features$V2)
-
 ## Rename column names on subject and activity datasets
 subject_train <- rename(subject_train,SubjectID = V1)
 y_train <- rename(y_train,Activity = V1)
 subject_test <- rename(subject_test,SubjectID = V1)
 y_test <- rename(y_test,Activity = V1)
+
+## Identify column numbers for required measurements with "mean" or "std" on its name
+req_col_numbers <- grep("mean|std",features$V2)
 
 ## Add subjectID and Activity columns to train and test datasets with 
 ## required measurements (which has mean or std on its name)
@@ -59,7 +81,7 @@ data_file_summary <- data_file %>% group_by(SubjectID,Activity) %>% summarise_ea
 if (!file.exists("./data")) {dir.create("./data")}
 write.table(data_file_summary,"./data/tidy_dataset.txt",row.name=FALSE)
 
-print(paste0("Final tidy Dataset: ",getwd(),"/tidy_dataset.txt"))
+print(paste0("Final tidy Dataset: ",getwd(),"/data/tidy_dataset.txt"))
 
 }
         
