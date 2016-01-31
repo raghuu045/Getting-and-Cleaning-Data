@@ -13,9 +13,9 @@ The column names of X_* files are referenced from V2 of features.txt using V1 of
 
 ###Column 	Tidy dataset columns 	Original dataset column
 ###Position (tidy_dataset.txt)
-1.	SubjectID	        V1 of subject_* files
-2.	Activity	        V1 of y_* files 
-3	time.BodyAcc.mean.X	tBodyAcc-mean()-X of X_*
+1.	SubjectID =>	        V1 of subject_* files
+2.	Activity  =>	        V1 of y_* files 
+3.	time.BodyAcc.mean.X =>	tBodyAcc-mean()-X of X_*
 4	time.BodyAcc.mean.Y	tBodyAcc-mean()-Y of X_*
 5	time.BodyAcc.mean.Z	tBodyAcc-mean()-Z of X_*
 6	time.BodyAcc.std.X	tBodyAcc-std()-X of X_*
