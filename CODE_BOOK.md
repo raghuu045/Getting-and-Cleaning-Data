@@ -1,17 +1,17 @@
-# DATA DICTIONARY
+## DATA DICTIONARY
 
-## Tidy dataset: 
+### Tidy dataset: 
 
 1.	Column 1 (SubjectID) contains the subjects involved in the activity.
 2.	Column 2 (Activity) contains activity names namely WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING. Activity names are referenced from V2 of activity_labels.txt file using V2 index for the corresponding activity. 
 3.	Columns starting from position 3 through 81 are average of the corresponding columns in the original dataset for each subject and each activity.
 
-## Original datasets: 
+### Original datasets: 
 
 The column names of X_* files are referenced from V2 of features.txt using V2 index of features.txt as corresponding column position in X_* files.
 
 
-## Below data contains:
+### Below data contains:
 
 column_position. tidy dataset column (tidy_dataset.txt) => Original dataset column
 
