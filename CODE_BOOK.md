@@ -4,7 +4,7 @@
 
 1.	Column 1 (SubjectID) contains the subjects involved in the activity.
 2.	Column 2 (Activity) contains activity names namely WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING. Activity names are referenced from V2 of activity_labels.txt file using V2 index for the corresponding activity. 
-3.	Columns starting from position 3 through 81 are average of the corresponding columns in the original dataset for each subject and each activity.
+3.	Columns 3 through 81 are average of the corresponding columns in the original dataset for each subject and each activity.
 
 ### Original datasets: 
 
