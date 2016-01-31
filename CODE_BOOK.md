@@ -16,23 +16,23 @@ The column names of X_* files are referenced from V2 of features.txt using V1 of
 1.	SubjectID =>	        V1 of subject_* files
 2.	Activity  =>	        V1 of y_* files 
 3.	time.BodyAcc.mean.X =>	tBodyAcc-mean()-X of X_*
-4	time.BodyAcc.mean.Y	tBodyAcc-mean()-Y of X_*
-5	time.BodyAcc.mean.Z	tBodyAcc-mean()-Z of X_*
-6	time.BodyAcc.std.X	tBodyAcc-std()-X of X_*
-7	time.BodyAcc.std.Y	tBodyAcc-std()-Y of X_*
-8	time.BodyAcc.std.Z	tBodyAcc-std()-Z of X_*
-9	time.GravityAcc.mean.X	tGravityAcc-mean()-X of X_*
-10	time.GravityAcc.mean.Y	tGravityAcc-mean()-Y of X_*
-11	time.GravityAcc.mean.Z	tGravityAcc-mean()-Z of X_*
-12	time.GravityAcc.std.X	tGravityAcc-std()-X of X_*
-13	time.GravityAcc.std.Y	tGravityAcc-std()-Y of X_*
-14	time.GravityAcc.std.Z	tGravityAcc-std()-Z of X_*
-15	time.BodyAccJerk.mean.X	tBodyAccJerk-mean()-X of X_*
-16	time.BodyAccJerk.mean.Y	tBodyAccJerk-mean()-Y of X_*
-17	time.BodyAccJerk.mean.Z	tBodyAccJerk-mean()-Z of X_*
-18	time.BodyAccJerk.std.X	tBodyAccJerk-std()-X of X_*
-19	time.BodyAccJerk.std.Y	tBodyAccJerk-std()-Y of X_*
-20	time.BodyAccJerk.std.Z	tBodyAccJerk-std()-Z of X_*
+4.	time.BodyAcc.mean.Y =>	tBodyAcc-mean()-Y of X_*
+5.	time.BodyAcc.mean.Z =>	tBodyAcc-mean()-Z of X_*
+6.	time.BodyAcc.std.X =>	tBodyAcc-std()-X of X_*
+7.	time.BodyAcc.std.Y =>	tBodyAcc-std()-Y of X_*
+8.	time.BodyAcc.std.Z =>	tBodyAcc-std()-Z of X_*
+9.	time.GravityAcc.mean.X =>	tGravityAcc-mean()-X of X_*
+10.	time.GravityAcc.mean.Y =>	tGravityAcc-mean()-Y of X_*
+11.	time.GravityAcc.mean.Z =>	tGravityAcc-mean()-Z of X_*
+12.	time.GravityAcc.std.X =>	tGravityAcc-std()-X of X_*
+13.	time.GravityAcc.std.Y =>	tGravityAcc-std()-Y of X_*
+14.	time.GravityAcc.std.Z =>	tGravityAcc-std()-Z of X_*
+15.	time.BodyAccJerk.mean.X	=> tBodyAccJerk-mean()-X of X_*
+16.	time.BodyAccJerk.mean.Y	=> tBodyAccJerk-mean()-Y of X_*
+17.	time.BodyAccJerk.mean.Z	=> tBodyAccJerk-mean()-Z of X_*
+18.	time.BodyAccJerk.std.X => tBodyAccJerk-std()-X of X_*
+19.	time.BodyAccJerk.std.Y =>	tBodyAccJerk-std()-Y of X_*
+20.	time.BodyAccJerk.std.Z =>	tBodyAccJerk-std()-Z of X_*
 21	time.BodyGyro.mean.X	tBodyGyro-mean()-X of X_*
 22	time.BodyGyro.mean.Y	tBodyGyro-mean()-Y of X_*
 23	time.BodyGyro.mean.Z	tBodyGyro-mean()-Z of X_*
