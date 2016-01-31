@@ -64,7 +64,7 @@ Tidy dataset created is  "./data/tidy_dataset.txt" in your working directory.
 2. Single observation per row. Observation on a subject-activity pair. 
 3. Descriptive name for every column. 
 4. Descriptive activity names for the Activity column.
-5. Data is from both training and test datasets.
+5. Data combined from both training and test datasets.
 6. Summarized information on each measurement for each subject and each activity.
 
 
