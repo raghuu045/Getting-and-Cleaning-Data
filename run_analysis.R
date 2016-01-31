@@ -10,15 +10,18 @@
 ## https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ## Steps performed are: 
-## 1. Reads the datasets 
-## 2. Appropriately labels the data set with descriptive variable names.
-## 3. Extracts only the measurements on the mean and standard deviation (std) for 
+## 1. Loads the required packages namely dplyr. 
+## 2. Reads the datasets 
+## 3. Appropriately labels the data set with descriptive variable names.
+## 4. Extracts only the measurements on the mean and standard deviation (std) for 
 ##    each measurement and appends subject and activity variables to the dataset.
-## 4. Merges train and test datasets one below the other.
-## 5. Updates variables names appropriately
-## 6. Updates descriptive activity names to name the activities in the data set
-## 7. Creates a tidy data set with the average of each variable for each activity 
+## 5. Merges train and test datasets one below the other.
+## 6. Updates variables names appropriately
+## 7. Updates descriptive activity names to name the activities in the data set
+## 8. Creates a tidy data set with the average of each variable for each activity 
 ##    and each subject.
+
+## tidy dataset created in the working directory: "./data/tidy_dataset.txt"
 
 run_analysis <- function() {
         
